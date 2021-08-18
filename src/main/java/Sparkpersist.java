@@ -8,6 +8,7 @@ import java.util.List;
 
 public class Sparkpersist {
     public static void main(String[] args) {
+        
         SparkConf sparkConf = new SparkConf().setAppName("seventh").setMaster("local[*]");
         JavaSparkContext sparkContext = new JavaSparkContext(sparkConf);
 
